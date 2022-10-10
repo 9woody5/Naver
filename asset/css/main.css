@@ -465,7 +465,6 @@
     display: block;
     border: 1px solid #dae1e6;
 }
-/* 이미지 사이즈 조정 시 흔들림 어떻게 잡는지? */
 .sc-themepost .list1-thumb img{
     width: 100%;
     vertical-align: top;
