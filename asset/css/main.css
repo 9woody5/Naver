@@ -579,7 +579,6 @@
     color: #505050;
     margin-top: 4px;
 }
-.sc-themepost .recipe-list .source{}
 .sc-themepost .recipe-list .source::after{
     content: '';
     display: inline-block;
@@ -656,7 +655,6 @@
     color: #505050;
     margin-top: 4px;
 }
-.sc-themepost .list3 .source{}
 .sc-themepost .list3 .source::after{
     content: '';
     display: inline-block;
@@ -837,9 +835,6 @@
     border-bottom: 1px solid #19ce60;
     color: #03c75a;
 }
-.sc-shop .tab-area .tab-mall{}
-.sc-shop .tab-area .tab-men{
-}
 .sc-shop .shop-content{
     height: 1763px;
     border: 1px solid #e4e8eb;
@@ -892,8 +887,6 @@
     color: #202020;
     font-weight: 700;
 }
-.sc-shop .btn-area .total{}
-
 .sc-shop .group-goods .navi{
     overflow: hidden;
     float: left;
@@ -917,7 +910,6 @@
     background-position: -71px -54px;
     margin: 10px 12px;
 }
-.sc-shop .group-goods .btn.next{}
 .sc-shop .group-goods .btn.next::before{
     content: '';
     display: inline-block;
@@ -1244,7 +1236,6 @@
     background-position: -71px -54px;
     margin: 10px 12px;
 }
-.plusdeal-hd .next{}
 .plusdeal-hd .next::after{
     content: '';
     display: inline-block;
@@ -1394,30 +1385,28 @@ footer .banner-list .txt-area p{
     margin-top: 8px;
 }
 
-footer .notice-area{
+.notice-area{
     padding: 16px 0 15px;
     border-bottom: 1px solid #e4e8eb;
     overflow: hidden;
 }
-footer .notice-area .notice-box{
+.notice-area .notice-box{
     float: left;
 }
-footer .notice-area ul{}
-footer .notice-area ul li{}
-footer .notice-area .title{
+.notice-area .title{
     font-weight: 700;
 }
-footer .notice-area .title:hover{
+.notice-area .title:hover{
     text-decoration: underline;
 }
-footer .notice-area .more{
+.notice-area .more{
     float: right;
     font-weight: 700;
 }
-footer .notice-area .more:hover{
+.notice-area .more:hover{
     text-decoration: underline;
 }
-footer .notice-area .more::after{
+.notice-area .more::after{
     content: '';
     display: inline-block;
     width: 8px;
@@ -1427,37 +1416,36 @@ footer .notice-area .more::after{
     margin-left: 7px;
 }
 
-footer .aside-area{
+.aside-area{
     overflow: hidden;
     border-bottom: 1px solid #e4e8eb;
 }
-footer .aside-area ul{
+.aside-area ul{
     float: left;
     width: 780px;
     padding: 20px 0;
 }
-footer .aside-area ul li{
+.aside-area ul li{
     line-height: 16px;
     margin-bottom: 8px;
 }
-footer .aside-area ul li:last-child{
+.aside-area ul li:last-child{
     margin-bottom: 0;
 }
-footer .aside-area ul h3{
+.aside-area ul h3{
     float: left;
     font-weight: 700;
     width: 87px;
 }
-footer .aside-area ul .link-item{
+.aside-area ul .link-item{
     color: #777;
     line-height: 16px;
     font-size: 12px;
 }
-footer .aside-area ul a{}
-footer .aside-area ul a:hover{
+.aside-area ul a:hover{
     text-decoration: underline;
 }
-footer .aside-area ul a.on::before{
+.aside-area ul a.on::before{
     content: '';
     display: inline-block;
     margin: 0 8px;
@@ -1465,89 +1453,87 @@ footer .aside-area ul a.on::before{
     height: 11px;
     background: #e4e8eb;
 }
-footer .aside-area .service-box{
+.aside-area .service-box{
     float: right;
     width: 350px;
     padding: 28px 0;
     overflow: hidden;
 }
-footer .aside-area .service-box img{
+.aside-area .service-box img{
     width: 48px;
     height: 48px;
     overflow: hidden;
 }
-footer .aside-area .box-left{
+.aside-area .box-left{
     float: left;
     max-width: 150px;
     overflow: hidden;
 }
-footer .aside-area .box-left .logo{
+.aside-area .box-left .logo{
     float: right;
 }
-footer .aside-area .box-left a{}
-footer .aside-area .box-left .whale-info{
+.aside-area .box-left .whale-info{
     overflow: hidden;
     float: left;
     margin-right: 15px;
 }
-footer .aside-area .box-left strong{
+.aside-area .box-left strong{
     display: block;
     font-weight: 700;
     padding-top: 3px;
 }
-footer .aside-area .box-left .link{
+.aside-area .box-left .link{
     display: block;
     margin-top: 3px;
     color: grey;
 }
-footer .aside-area .link:hover{
+.aside-area .link:hover{
     text-decoration: underline;
 }
-footer .aside-area .box-right{
+.aside-area .box-right{
     float: left;
     overflow: hidden;
     margin-left: 50px;
 }
-footer .aside-area .box-right .logo{
+.aside-area .box-right .logo{
     overflow: hidden;
     float: right;
 }
-footer .aside-area .box-right a{}
-footer .aside-area .box-right .project-info{
+.aside-area .box-right .project-info{
     overflow: hidden;
     float: left;
     margin-right: 15px;
 }
-footer .aside-area .box-right strong{
+.aside-area .box-right strong{
     display: block;
     font-weight: 700;
     padding-top: 3px;
 }
-footer .aside-area .box-right .link{
+.aside-area .box-right .link{
     display: block;
     margin-top: 3px;
     color: grey;
 }
 
-footer .corp-area{
+.corp-area{
     padding-top: 25px;
 }
-footer .corp-area .corp-list{
+.corp-area .corp-list{
     overflow: hidden;
     float: left;
     margin-right: 13px;
 }
-footer .corp-area .corp-list li{
+.corp-area .corp-list li{
     float: left;
     color: #777;
 }
-footer .corp-area .corp-list li:hover{
+.corp-area .corp-list li:hover{
     text-decoration: underline;
 }
-footer .corp-area .corp-list li .on{
+.corp-area .corp-list li .on{
     font-weight: 700;
 }
-footer .corp-area .corp-list li+li::before{
+.corp-area .corp-list li+li::before{
     content: '';
     display: inline-block;
     width: 1px;
@@ -1556,13 +1542,13 @@ footer .corp-area .corp-list li+li::before{
     margin: 0 8px;
     vertical-align: -1px;
 }
-footer .corp-area .addr{
+.corp-area .addr{
     font-weight: 700;
 }
-footer .corp-area .addr:hover{
+.corp-area .addr:hover{
     text-decoration: underline;
 }
-footer .btn-top{
+.btn-top{
     position: fixed;
     right: 24px;
     bottom: 20px;
@@ -1573,7 +1559,7 @@ footer .btn-top{
     background-position: -150px -212px;
     vertical-align: top;
 }
-footer .screen-mode{
+.screen-mode{
     position: fixed;
     right: 78px;
     bottom: 19px;
